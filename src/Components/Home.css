@@ -1,0 +1,39 @@
+
+#home {
+    background: rgba(255, 255, 255, 0.4); 
+    backdrop-filter: blur(3px); 
+    padding: 30px; /* Adds spacing inside the section */
+    border-radius: 10px; /* Smooth rounded corners */
+    margin: 20px auto; /* Centers the container */
+    width: 440px; /* Adjusts width */
+    max-width: 600px; /* Limits width for responsiveness */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds a shadow */
+    display: flex; /* Enables flexbox */
+    flex-direction: column; /* Arranges children in a column */
+    align-items: center; /* Centers items horizontally */
+    gap: 20px; /* Adds space between items */
+    justify-content: center;
+}
+
+button:link{
+    text-decoration: none;
+}
+@keyframes borderAnimation {
+    0% {
+        border: 2px solid rgba(255, 255, 255, 0);
+    }
+    50% {
+        border: 2px solid rgba(0, 123, 255, 1); /* Change to desired color */
+    }
+    100% {
+        border: 2px solid rgba(255, 255, 255, 0);
+    }
+}
+
+#home {
+    animation: borderAnimation 3s infinite; /* 3s duration, infinite looping */
+    padding: 20px;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+

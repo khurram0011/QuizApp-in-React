@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Poppins', sans-serif;
+  color: #333; 
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  
+}
+
+ li{
+    list-style: none;
+ 
+}
+link {
+    color: white;
+    text-decoration: none;
+  }
+  a {
+    text-decoration: none;
+  }
+
+  .instructions-section .btn:hover {
+    transform: scale(1.05);
+    transition: transform 0.2s ease-in-out;
+  }
+  

@@ -1,0 +1,36 @@
+
+.options-container{
+display: inline-block;
+width: 50%;
+}
+.option{
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+    border-radius: 12px;
+    margin: 6px auto;
+    padding: 6px;
+    text-align: center;
+    width: 90%;
+}
+
+.correct-answer {
+    margin-top: 20px;
+    color: green;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  .wrong-answer {
+  margin-top: 20px;
+  color: red;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+  
+.lifeline-container p{
+
+  font-size: 24px;
+  font-weight: 700;
+
+}
